@@ -1,3 +1,6 @@
+// OOP in TypeScript
+
+// Classes are a template for creating objects. Just a blueprint. They don't do anything until you create an instance of the class.
 interface Person {
   name: string;
   age: number;
@@ -5,6 +8,7 @@ interface Person {
   success: boolean;
 }
 
+// explicitly typed :void function since its a boundary!
 function sayHappyBirthdayWithObject(personObject: Person): void{
   let output ='';
   output += 'Happy Birthday '
@@ -21,11 +25,13 @@ function sayHappyBirthdayWithObject(personObject: Person): void{
   console.log(output);
 }
 
+// array of type Person[] as in Person class array( set of person objects)
 let birthdayBabies: Person[] = [
-  {name: 'Liam', age: 0, giftWish: 'karate skills', success: false}, 
+  {name: 'Liam', age: 0, giftWish: 'karate skills', success: true}, 
   {name: 'Olivia', age: 0, giftWish: 'a bright future', success:true}, 
   {name: 'Ava', age: 0, giftWish: '$0.25', success:true}
 ]; 
 
+// loop through the array of Person objects and call the sayHappyBirthdayWithObject function for each one
 birthdayBabies.forEach(sayHappyBirthdayWithObject);
 
