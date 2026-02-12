@@ -1,11 +1,14 @@
+// the math operations. They are red-underlined idk why!😁
 function add(a, b){return a+b }
 function subtract(a, b){return a-b }
 function multiply(a, b){return a*b}
 function divide(a, b){return a/b}
 function wrongAdd(a, b){return (a+b)+''}
 
+//function type below for callbacks & other functions compatible to it(Type safe code)
 type OperatorFunction = (a: number,b: number) => number;
 
+//MathTutor function that accepts a Typed callback function
 function mathTutor(operationName: string, operationCallback: OperatorFunction) {
 
   let a = 2;
@@ -29,4 +32,5 @@ mathTutor("add",add);
 mathTutor("divide",divide);
 mathTutor("multiply",multiply);
 
+//type function catches this error since strings involves
 mathTutor("wrong add",wrongAdd);
