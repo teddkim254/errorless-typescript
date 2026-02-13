@@ -1,23 +1,12 @@
-**Challenge**
-As a final diversion/self-challenge, I loaded errorneous code in the code editor. 
-   It contains several plump, juicy errors. 
-   
-See if I can use TypeScript to find them all!
+# ATTENTION!!!
+## This is how i learn TS after being Javascript familiar
 
-**Solution**
-I used *Type annotations* in both primitive and functions to make Typescript happy!
+I load erroneous code in the editor, or javascript code that isn't type safe into .ts files.
+This is always enough for TS to show it's teeth and lot's of BUGS surely appear!!
+I then Type safe and learn concepts, engineer data as efficient as possible
 
-***Beautiful! Array types may seem like a monster topic, but now I have got it tamed.I  learned:***
+Then from this One REPO I'll be able to divert into *solo/shared* *mini and big projects!*
 
-- The type annotations
-- What tuples are, and how to do their type annotations.
-- How type inference works with arrays and tuples.
-- How to use the rest and spread operators with TypeScript.
-
-Arrays types are a crucial component of TypeScript, so great job!
-
---
---
 
 # OOP Concepts in TypeScript (Conceptual Overview)
 
